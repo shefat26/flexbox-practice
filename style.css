@@ -1,0 +1,20 @@
+
+
+
+button {
+  border: 1px solid black;
+  padding: 10px 20px;
+  margin: 10px 20px;
+  background-color: aqua;
+}
+
+.parent{
+
+    display: flex;
+    justify-content: none;
+
+    margin: 10px 20px;
+    align-items: center;
+    height: 100vh;
+
+}
