@@ -1,45 +1,58 @@
 
 
-.parent{
 
-    display: flex;
-    padding: 20px;
-    /* justify-content: flex-end; */
+.grand{
 
-}
-
-.parent>div{
-
-    margin: 10px 20px;
+    border: 1px solid black;
+    margin: 10px 5px;
     padding: 10px;
-    border: 1px solid gray;
-    height: max-content;
     display: flex;
+    justify-content: space-between;
    
-}
 
-.child1{
-
-   
-   width: 400px ;
-   justify-content: space-evenly;
-
-   
- 
-
-}
-
-.child1>button{
-
-    padding: 10px 20px;
-    margin: 1px 5px;
-    background-color: aqua;
-
-   
     
 }
 
-.child2{
+.grand>div{
 
-    height: 500px !important;
+      border: 5px solid red;
+      margin: 10px;
+      padding: 5px;
+      display: flex;
+      width: 400px;
+      justify-content: flex-start;
 }
+
+
+button{
+
+    border: 1px solid black;
+    margin: 5px 1px;
+    padding: 5px;
+    color: brown ;
+    
+    
+}
+
+
+
+.parent2{
+
+    border: 1px solid green ;
+    margin: 10px 20px;
+    padding: 5px;
+    justify-content: space-between !important;
+   
+    
+    
+}
+
+.parent2>button{
+
+    background-color: aqua;
+}
+
+
+
+
+
