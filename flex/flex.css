@@ -167,17 +167,18 @@
     border: 1px solid black;
     margin: 10px 15px;
     padding: 10px 15px;
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
 
 }
 
-.btn7:hover{
+/* .btn7:hover{
 
     height: 200px;
     width: 200px;
     
-}
+} */
 
 
 

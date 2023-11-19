@@ -1,0 +1,45 @@
+
+
+.parent{
+
+    display: flex;
+    padding: 20px;
+    /* justify-content: flex-end; */
+
+}
+
+.parent>div{
+
+    margin: 10px 20px;
+    padding: 10px;
+    border: 1px solid gray;
+    height: max-content;
+    display: flex;
+   
+}
+
+.child1{
+
+   
+   width: 400px ;
+   justify-content: space-evenly;
+
+   
+ 
+
+}
+
+.child1>button{
+
+    padding: 10px 20px;
+    margin: 1px 5px;
+    background-color: aqua;
+
+   
+    
+}
+
+.child2{
+
+    height: 500px !important;
+}
