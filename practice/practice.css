@@ -20,22 +20,23 @@
 
 }
 
-.grand2>button{
+.grand2>div>button{
 
 
     border: 1px solid black;
     margin: 10px 20px;
     padding: 5px 20px;
     color: red ;
-    justify-content: center;
+    background-color: antiquewhite;
+    /* justify-content: center; */
 }
 
-.parents2>button{
+.parents2{
 
-    border: 3px solid blue ;
+    border: 5px solid blue !important;
     margin: 10px 20px;
     padding: 10px 15px;
-    display: flex;
+    /* display: flex; */
     color: green;
     justify-content: center !important;
     font-weight: 900;
@@ -44,51 +45,62 @@
 }
 
 
+.parents3{
+
+    justify-content: flex-start !important;
+
+
+}
+
 
 
 .grand3{
 
+    
     border: 1px solid black;
     margin: 10px 15px;
     padding: 10px 15px;
     display: flex;
     justify-content: space-evenly;
-   
+
 
 }
+
 
 .grand3>div{
 
     border: 1px solid black;
-    margin: 10px 20px;
-    padding: 10px 20px;
-    color: brown;
+    margin: 10px ;
+    padding: 10px ;
     display: flex;
-    justify-content:center ;
-    width: 400px;
-
+    justify-content: flex-start;
+    width: 300px;
 
 }
 
 
-.grand3>button{
+.grand3>div>button{
 
     border: 1px solid black;
-    margin: 10px 20px;
-    padding: 10px 20px;
-    color: chartreuse !important;
-
-}
-
-.child3{
-
-    border: 5px solid blue;
-    margin: 10px 20px;
-    padding: 10px 20px;
-
+    margin: 5px ;
+    padding: 5px ;
+    background-color: aqua;
+    color: red;
 
 }
 
 
+.child1{
+
+    justify-content: center !important;
+    
+    
+}
+
+.child1>button{
+
+    background-color: blue !important;
+    color: antiquewhite !important;
+}
 
 
