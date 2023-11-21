@@ -1,0 +1,59 @@
+
+.top{
+
+    border: 1px solid black;
+    margin: 40px 20px;
+    padding: 10px 20px;
+    display: flex;
+    height: 50vh;
+}
+
+.top>div{
+
+    border: 1px solid black;
+    margin: 40px 20px;
+    padding: 10px 20px;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    width: 300px;
+    
+
+}
+
+.child1>button{
+
+    margin: 20px 5px;
+    padding: 10px 15px;
+    color: antiquewhite;
+    background-color: chartreuse;
+    width: 40px;
+}
+
+.child1{
+
+    
+    align-items: flex-start ;
+    justify-content: flex-end ;
+   
+}
+
+
+
+
+.child2{
+
+   
+    align-items: flex-end;
+    justify-content: flex-start;
+    
+}
+
+.child3{
+
+   
+    align-items: center;
+    justify-content: flex-end;
+   
+
+}
