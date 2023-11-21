@@ -1,0 +1,47 @@
+
+.parent{
+
+    border: 1px solid black;
+    margin: 10px 15px;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.parent>div{
+
+    border: 1px solid black;
+    margin: 10px 15px;
+    padding: 10px 15px;
+    display:flex ;
+    justify-content: flex-end ;
+    color: red;
+    width: 350px;
+
+}
+
+.parent>div>button{
+
+    color: red;
+    background-color: aquamarine;
+}
+
+.btn1{
+    justify-content: center !important;
+
+}
+
+
+
+.btn2{
+
+    justify-content: space-evenly !important;
+    
+}
+
+.btn2>button{
+
+    color: antiquewhite !important;
+    background-color: blue !important;
+}
