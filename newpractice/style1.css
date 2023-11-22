@@ -161,7 +161,7 @@
     border: 1px solid black;
     margin: 15px 20px;
     padding: 15px 20px;
-    display: flex;
+    /* display: flex; */
     align-items: center;
     height: 150px;
     width: 350px;
@@ -196,15 +196,35 @@
 
 .third{
 
-   
-    justify-content: flex-start;
-    align-items: flex-start !important;
+    border: 1px solid black;
+    margin: 5px;
+    /* padding: 5px; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center !important; */
     /* width: 400px !important; */
 
 }
 
-.third>button{
+.third>div{
 
+    /* border: 1px solid black; */
+    margin: 10px 20px;
+    padding: 10px 20px;
+    display: flex;
+
+    
+    
+}
+
+.prev1{
+
+    justify-content: flex-end;
     color: red;
-    font-weight: 700;
+}
+
+.prev2{
+
+    justify-content: center;
+    
 }
