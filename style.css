@@ -67,3 +67,290 @@
     height: 150px;
     object-fit: cover;
 }
+
+
+
+/* parent2 div starts here */
+
+.parent2{
+
+    border: 1px solid black;
+    margin: 10px 20px;
+    padding: 10px 15px;
+    display: flex;
+    /* height: 30vh ; */
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+
+
+.parent2>div{
+
+    border: 1px solid black;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    display: flex;
+    width: 300px;
+    height: 250px;
+}
+
+.child4{
+
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.child4>button{
+
+    background-color: blue;
+    color: antiquewhite;
+}
+
+
+.child5{
+
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+
+.child5>button{
+
+    background-color: green;
+    color: antiquewhite;
+}
+
+
+.child6{
+
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.child6>button{
+
+    background-color: red;
+    color: antiquewhite;
+}
+
+
+
+
+
+
+/* parent3 div starts here */
+
+.parent3{
+
+    border: 1px solid black;
+    margin: 10px 20px;
+    padding: 10px 15px;
+    display: flex;
+    /* height: 50vh ; */
+    align-items: flex-end;
+    justify-content: space-evenly;
+
+}
+
+
+.parent3>div{
+
+    border: 1px solid black;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    display: flex;
+    height: 300px;
+    width: 300px;
+}
+
+.child7{
+
+    
+    border: 1px solid black;
+    margin: 10px 20px;
+    padding: 10px 15px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+
+.child7>button{
+
+    color:chartreuse ;
+    background-color: black;
+}
+
+
+.child8{
+
+    
+    border: 1px solid black;
+    margin: 10px 20px;
+    padding: 10px 15px;
+    /* display: flex; */
+    justify-content: flex-end;
+    align-items: center;
+    
+
+}
+
+.child8>button{
+
+    color:aqua ;
+    background-color: antiquewhite;
+}
+.child9{
+
+    
+    border: 1px solid black;
+    margin: 10px 20px;
+    padding: 10px 15px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+
+.child9>button{
+
+    color:red ;
+    background-color: aqua;
+}
+
+
+
+
+
+
+
+
+
+/* parent4 div starts here */
+
+.parent4{
+
+    border: 1px solid black;
+    margin: 10px 20px;
+    padding: 10px 15px;
+    display: flex;
+    height: 80vh ;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+
+
+.parent4>div{
+
+    border: 1px solid black;
+    margin: 10px 20px;
+    padding: 10px 15px;
+    display: flex; 
+    height: 400px;
+    width: 700px;
+
+}
+
+.img1{
+
+    align-items: flex-end;
+    justify-content: space-between;
+
+}
+
+.img1>img{
+
+    
+    border: 1px solid black;
+    margin: 30px 20px;
+    padding: 10px 15px;
+    
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+    
+}
+
+
+.img2{
+
+    align-items: center;
+    justify-content: space-evenly;
+}
+.img2>img{
+
+    
+    border: 1px solid black;
+    margin: 10px 20px;
+    padding: 10px 15px;
+    height: 100px;
+    width: 100px;
+    /* overflow: hidden; */
+}
+
+
+
+
+
+/* parent5 div starts here */
+.parent5{
+
+    border: 1px solid black;
+    margin: 10px 20px;
+    padding: 10px 15px;
+    display: flex;
+    height: 100px;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+
+.parent5>div{
+
+    /* border: 1px solid black; */
+    margin: 10px 20px;
+    padding: 10px 15px;
+    display: flex; 
+    height: 40px;
+    width: 200px;
+
+}
+
+
+.child10{
+
+    border: 1px solid black;
+    margin: 10px 20px;
+    padding: 10px 15px;
+    justify-content: space-evenly;
+
+}
+
+.child10>a{
+
+    /* row-gap: 50px; */
+    text-decoration: none;
+    color: red;
+    
+
+}
+
+
+.child11{
+
+    border: 1px solid black;
+    margin: 10px 20px;
+    padding: 10px 15px;
+    justify-content: space-evenly;
+
+}
+
+.child11>a{
+
+    text-decoration: none;
+    color: red;
+}
