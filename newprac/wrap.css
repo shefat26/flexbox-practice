@@ -1,0 +1,38 @@
+
+.parent{
+
+    border: 1px solid black;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    /* display: flex; */
+    flex-direction: column;
+ 
+    gap: 20px;
+
+}
+
+.parent>div{
+
+   margin: 10px;
+
+    background-color:aqua;
+    /* width: 600px; */
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+
+
+}
+
+button{
+
+    width: 180px;
+}
+
+
+.child3{
+
+    flex-direction: column;
+}
