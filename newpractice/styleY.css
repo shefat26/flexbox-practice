@@ -1,0 +1,201 @@
+.main {
+  border: 1px solid black;
+  margin: 10px 20px;
+  padding: 10px 20px;
+  display: flex;
+  /* height: 50vh; */
+  /* flex-direction: ; */
+  flex-wrap: wrap;
+}
+
+.granddiv1 {
+  border: 1px solid black;
+  margin: 10px 20px;
+  padding: 10px 20px;
+  display: flex;
+}
+
+.granddiv1 > div {
+  border: 1px solid black;
+  margin: 10px 20px;
+  padding: 10px 20px;
+  display: flex;
+  width: 200px;
+  height: 100px;
+}
+
+.parentdiv1 {
+  justify-content: flex-end;
+  align-items: center;
+  background-color: aqua;
+  gap: 10px;
+}
+
+.parentdiv1 > button {
+  color: blue;
+  background-color: antiquewhite;
+}
+
+.parentdiv2 {
+  justify-content: center;
+  align-items: flex-end;
+  background-color: red;
+}
+
+.parentdiv2 > button {
+  color: aqua;
+  background-color: blue;
+}
+
+.parentdiv3 {
+  justify-content: flex-end;
+  align-items: flex-start;
+  background-color: blueviolet;
+}
+
+.parentdiv3 > button {
+  color: yellow;
+  background-color: black;
+}
+
+/*  */
+.granddiv2 {
+  border: 1px solid black;
+  margin: 10px 20px;
+  padding: 10px 20px;
+  display: flex;
+  width: 1500px;
+  height: 200px;
+  justify-content: flex-end;
+}
+
+.granddiv2 > div {
+  border: 1px solid black;
+  margin: 10px 20px;
+  padding: 10px 20px;
+  display: flex;
+  width: 200px;
+  height: 100px;
+}
+
+.parentdiv4 {
+  border: 1px solid black;
+  margin: 10px 20px;
+  padding: 10px 20px;
+  display: flex;
+  /* flex-wrap: wrap; */
+  width: 300px !important;
+  height: 100px !important;
+  gap: 5px;
+}
+
+.parentdiv4 > img {
+  width: 60px;
+  object-fit: cover;
+}
+
+.parentdiv5 {
+  border: 1px solid black;
+  margin: 10px 20px;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 300px !important;
+  height: 150px !important;
+  flex-wrap: wrap !important;
+  gap: 5px;
+}
+
+.parentdiv5 > button {
+  width: 60px !important;
+  /* flex-wrap: wrap !important; */
+  color: red;
+  background-color: blueviolet;
+  /* flex-wrap: wrap-reverse !important; */
+}
+
+.parentdiv6 {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px 20px;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 5px;
+}
+
+.parentdiv6 > a {
+  color: aqua;
+  text-decoration: none;
+}
+
+/*  */
+.granddiv3 {
+  border: 1px solid black;
+  margin: 10px 20px;
+  padding: 10px 20px;
+  display: flex;
+  height: 50vh;
+  width: 1800px;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.granddiv3 > div {
+  border: 1px solid black;
+  margin: 10px 20px;
+  padding: 10px 20px;
+  height: 30vh;
+}
+
+.parentdiv7 {
+  border: 1px solid black;
+  margin: 10px 20px;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 200px;
+}
+
+.parentdiv7 > button {
+  color: green;
+  background-color: red;
+}
+
+.parentdiv8 {
+  border: 1px solid black;
+  margin: 10px 20px;
+  padding: 10px 20px;
+  display: block;
+  /* justify-content: flex-end; */
+  /* align-items: center ; */
+  /* flex-wrap: wrap !important; */
+}
+
+.parentdiv8 > img {
+  flex-wrap: wrap !important;
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+  gap: 15px !important;
+}
+
+.parentdiv8 > a {
+  display: inline-block;
+}
+
+.parentdiv9 {
+  border: 1px solid black;
+  margin: 10px 20px;
+  padding: 10px 20px;
+  display: flex;
+  /* justify-content: flex-end; */
+  /* align-items: center ; */
+  flex-wrap: wrap !important;
+}
+
+.parentdiv9 > img {
+  width: 100px !important;
+  height: 100px;
+}
