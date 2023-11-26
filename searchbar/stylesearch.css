@@ -1,0 +1,58 @@
+
+.parent{
+
+    border: 1px solid black;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.child1{
+
+    width: 100%;
+    background-color: rgb(19, 172, 233);
+
+}
+
+h2{
+
+    /* border: 1px solid black; */
+    margin: 10px 20px;
+    padding: 10px 20px;
+    font-size: 25px;
+    color: red;
+    /* background-color: rgb(19, 172, 233); */
+    text-transform: uppercase;
+}
+
+
+.child2{
+
+    /* border: 1px solid black; */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+a{
+
+
+    text-decoration: none;
+    /* padding: 10px; */
+    /* justify-content: space-between; */
+}
+
+.child3{
+
+    /* border: 1px solid black; */
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+}
