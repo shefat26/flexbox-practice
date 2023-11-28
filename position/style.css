@@ -1,0 +1,32 @@
+
+.rel{
+
+    border: 1px solid black;
+    margin: 20px;
+    padding: 50px;
+    background-color: aquamarine;
+    position: relative;
+}
+
+.abs{
+
+    padding: 10px 20px;
+    /* margin: 10px 20px; */
+    background-color: red;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    /* left: 500px;
+    bottom: 30px; */
+}
+.abs1{
+
+    padding: 10px 20px;
+    /* margin: 10px 20px; */
+    background-color: blueviolet;
+    position: absolute;
+    /* right: 10px; */
+    /* top: 20px; */
+    left: 0px;
+    bottom: 0px;
+}

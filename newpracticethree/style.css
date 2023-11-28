@@ -8,16 +8,21 @@
     justify-content:center ;
 }
 
-.child1{
+.child1 {
 
     border: 1px solid black;
     padding: 20px 30px;
     margin: 10px 20px;
-    display: center;
+    /* display: center; */
     /* align-items: center;
     justify-content:center ; */
     width: 100%;
 
+}
+
+.child1 a{
+
+    display: block;
 }
 .child2{
 
